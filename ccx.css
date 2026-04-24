@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: gray;
+}
+
+.video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: -1;
+  object-position: left center;
+}
+
+.som-btn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: 0.2s;
+}
+
+.som-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+.container {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    background: white;
+    padding: 60px;
+    border-radius: 15px;
+    width:300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    background:lightsteelblue;
+    z-index: 1;
+}
+
+.titulo {
+    margin-left: -110px;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 3px;
+    color:cornflowerblue
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid#ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #333;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #789;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.input-group {
+  margin-bottom: 0px;
+}
+
+.input-group label {
+    color: #fff;
+    font-size: 14px;
+}
+
+.z-senha {
+    position: relative;
+}
+
+.z-senha input {
+    width: 80%;
+    padding: 12px;
+    padding-right: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.z-user {
+    border:none;
+    position: relative;
+}
+
+.e-senha {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.c-conta {
+    color: white;
+    display: block;
+    margin-top:20px;
+}
+
+.r-senha {
+    color: white;
+    margin-left: -115px;
+}
+

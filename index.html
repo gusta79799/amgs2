@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="ccx.css">
+</head>
+<body>
+
+<iframe
+  id="bg-video"
+  class="video"
+  src="https://www.youtube.com/embed/a0UhKN59bmQ?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=a0UhKN59bmQ"
+  frameborder="0"
+  allow="autoplay"
+  ></iframe>
+
+<button class="som-btn" onclick="toggleSom()" id="btnSom">🔊</button>
+
+<div class="container">
+
+    <h1 class="titulo">Amigos da bola</h1>
+
+    <input type="text" id="usuario" class="z-user" placeholder="Username">
+
+        <div class="input-group">
+
+  <div class="z-senha">
+    <input type="password" id="senha" placeholder="Password">
+    <span id="icon" class="e-senha" onclick="toggleSenha()">👁️‍🗨️</span>
+  </div>
+        </div>
+
+    <a href="recuperarsenha.html" class="r-senha">Forgot your password ?</a>
+
+    <div id="mensagem"></div>
+
+    <div id="teste"></div>
+
+    <button onclick="login()">Sign in</button>
+    
+    <a href="criarconta.html" class="c-conta">Create account</a>
+
+</div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+ <script src="ccx.js"></script>  
+</body>
+</html>
