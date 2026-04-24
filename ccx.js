@@ -3,7 +3,7 @@ function login(){
     var usuario = document.getElementById("usuario").value;
     var senha = document.getElementById("senha").value;
 
-    if(usuario == "admin" && senha == "1234") {
+    if(usuario == "destruição" && senha == "uvitu") {
         document.getElementById("mensagem").style.color = "green";1234
         document.getElementById("mensagem").innerText = "Login realizado com sucesso!";
         
